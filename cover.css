@@ -1,0 +1,524 @@
+/*
+ * Globals
+ */
+
+:root {
+    --sm-primary: #22ac87;
+    --sm-highlight: #67e1c0;
+    --sn-blue: #009FE3;
+    --sm-body-color: #444444;
+    --sm-light-primary: #ecf3f1;
+    --sm-grey: #179b7a;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+/*
+ * Base structure
+ */
+
+body {
+  
+	font-family: 'Tajawal', sans-serif; font-weight: 400;
+	
+}
+
+A {
+    text-decoration: none;
+}
+A:hover {
+    text-decoration: none;
+}
+
+.link-button {
+    padding: 0.7em;
+    background-color: #edfaff;
+    font-family:'Tajawal', sans-serif; 
+    font-size: 1em;
+    font-weight: 900;
+    color: #5e5e5e;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 0.2em;
+}
+
+.link-button:hover {
+    background-color: white;
+}
+
+.hero-content--image {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.hero-content--image>img {
+    width: 130%;
+}
+
+@media (max-width: 991.98px) {
+
+    .hero-content--image>img {
+        width: 50%;
+    }
+
+ }
+
+.bg-smgreen 
+{
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 0% 0%, #037669 0%, #269472 34%, #3E898A 63%, #2ABB99 86%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 0% 0%, #037669 0%, #269472 34%, #3E898A 63%, #2ABB99 86%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 0% 0%, #037669 0%, #269472 34%, #3E898A 63%, #2ABB99 86%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 0% 0%, #037669 0%, #269472 34%, #3E898A 63%, #2ABB99 86%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 0% 0%, #037669 0%, #269472 34%, #3E898A 63%, #2ABB99 86%);
+
+}
+
+.sm-grey {
+background-color: var(--sm-grey);
+}
+
+.sn-blue {
+    background-color:  var(--sn-blue);
+}
+
+.bupa-blue {
+    background-color: #0079c8;
+}
+
+.text-dark {
+    color: #444444;
+}
+
+.sm-primary {
+    color: var(--sm-primary);
+}
+
+.bg-smprimary {
+    background-color: var(--sm-primary);
+}	
+
+
+IMG.StoreButt {
+    width: 180px;
+}	
+	
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+    
+  .sm__quote {
+    font-size: 1.8em;
+  }
+
+  .sm__quote-name {
+    font-size: 1.2em;
+    font-style: italic;
+  }
+
+H1 {
+	font-size: 4rem;
+	font-family: 'Source Serif 4', sans-serif;
+	color: #ffffff;
+}
+
+H2 {
+		font-size: 2.8rem;
+	font-family: 'Source Serif 4', sans-serif;
+	color: var(--sm-primary);
+}
+
+H3 {
+        font-size: 1.4rem;
+    font-family: 'Source Serif 4', sans-serif;
+    color: var(--sm-primary);
+}
+
+P {
+font-size: 1.2rem;
+line-height: 1.5;
+letter-spacing: 0.02rem;
+	color: #426664;
+	
+}
+
+P.lead {
+
+	font-size: 1.4rem;
+}
+
+BUTTON {
+    transition: all 200ms ease-in-out;
+    text-decoration: none !important;
+}
+
+BUTTON.btn-link {
+    transition: all 200ms ease-in-out;
+    color:  var(--sm-primary);
+    font-weight: 800;
+}
+
+BUTTON.btn-link:hover {
+    color: var(--sm-highlight);
+    transform: translateX(10px);
+}
+
+BUTTON.btn-link:hover path {
+    transition: all 200ms ease-in-out;
+    stroke: var(--sm-highlight);
+    transform: rotate(-65deg);
+    transform-origin: center;
+}
+
+SECTION#Sect__YuLife {
+    background-color: rgb(227, 13, 118);
+}
+
+SECTION#footer {
+    background-color: var(--sm-light-primary);
+    color: #888888;
+    font-family: 'Tajawal', sans-serif; 
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.bg-nav {
+    background-color: #ffffff;
+
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+.nav-link {
+	color: var(--sm-body-color);
+    font-size: 1.1em;
+}
+
+.nav-link:hover {
+	color: #A49393;
+}
+
+
+
+.btn_ripple {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    background-color: #ffffff;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 18px;
+    cursor: pointer;
+
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+
+	transition: all 0.15s ease-in-out;
+	
+}
+
+.btn_ripple:hover {
+	background-color: #DEDEDE;
+	transform: scale(1.12);
+	transition: all 0.15s ease-in-out;
+}
+
+.btn_normal {
+	
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    background-color: #ffffff;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 18px;
+	cursor: pointer;
+	
+	transition: all 0.15s ease-in-out;
+	
+}
+
+.btn_normal:hover {
+	background-color: #DEDEDE;
+	transform: scale(1.12);
+	transition: all 0.15s ease-in-out;
+}
+
+.dot_circle {
+	border: none;
+    outline: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: block;
+    background-color: #ffffff;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 18px;
+}
+
+.floating-element {
+    position:  absolute;
+    z-index: -1;
+}
+
+
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
+    }
+
+    80% {
+        box-shadow: 0 0 0 10px #fff0, 0 0 0 20px #fff0;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 #fff0, 0 0 0 0 #fff0;
+    }
+}
+
+
+.rounded-5 {
+    border-radius: 1rem;
+}
+
+.img-overlay {
+    position: absolute;
+    width:  100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+
+.card-content {
+    z-index: 2;
+}
+
+.card-cover {
+    transition: all 200ms ease-in-out;
+}
+
+.card-inner-link:hover > .card-cover {
+    box-shadow: rgba(38, 57, 77, 0.5) 0px 20px 30px -10px !important;
+}
+
+.card-inner-link:hover .card-cover {
+    opacity: 0.7;
+}
+
+.card-inner-link H2 {
+    transition:  all 200ms ease-in-out;
+}
+
+.card-inner-link:hover H2 {
+    transform: translateX(10px);
+}
+
+.card-inner-link P {
+    transition:  all 200ms ease-in-out;
+    transition-delay: 50ms;
+}
+
+.card-inner-link:hover P {
+    transform: translateX(10px);
+}
+
+.btn-link {
+    font-family: 'Tajawal', sans-serif; 
+    font-weight: 300;
+    font-size: 1.2em;
+    padding: 0;
+    margin:  0;
+}
+
+.btn-link.btn-whiteout {
+    color:  #ffffff;
+    text-decoration: none;
+}
+
+.btn-link.btn-whiteout:hover {
+    color: #EAEAEA;
+}
+
+.circle-butt {
+	display: inline-block; 
+	position: absolute;
+}
+
+.hero-buttons > div:nth-child(1) {
+	transform: translate(65px, 20px);
+    animation: float 4s ease-in-out infinite;
+}
+
+.hero-buttons > div:nth-child(2) {
+    transform: translate(203px, -60px);
+}
+
+.hero-buttons > div:nth-child(3) {
+  transform: translate(212px, 164px);  
+}
+
+.hero-buttons > div:nth-child(4) {
+transform: translate(141px, 274px);
+}
+
+.hero-buttons > div:nth-child(5) {
+    transform: translate(16px, 167px);
+}
+
+.hero-buttons > div:nth-child(6) {
+    transform: translate(332px, -49px);
+}
+
+.hero-buttons > div:nth-child(7) {
+    transform: translate(29px, -52px);
+}
+
+.hero-buttons > div:nth-child(8) {
+    transform: translate(327px, 199px);
+}
+
+.hero-buttons > div:nth-child(9) {
+    transform: translate(167px, -101px);
+}
+
+.hero-buttons > div:nth-child(10) {
+    transform: translate(212px, 106px);
+}
+
+.hero-buttons > div:nth-child(11) {
+    transform: translate(106px, 206px);
+}
+
+.hero-buttons > div:nth-child(12) {
+    transform: translate(301px, 72px);
+}
+
+.hero-buttons > div:nth-child(13) {
+    transform: translate(359px, -98px);
+}
+
+.hero-buttons > div:nth-child(14) {
+    transform: translate(-19px, 238px);
+}
+
+.hero-buttons > div:nth-child(15) {
+    transform: translate(248px, 329px);
+}
+
+@keyframes float {
+    0% {
+        transform: translate(65px, 20px);
+    }
+    50% {
+        transform: translate(65px, 0px);
+    }
+    100% {
+        transform: translate(65px, 20px);
+    }
+}
+
+.left-guide {
+    border-left: 2px dashed #EAEAEA;
+}
+
+/* Styles for YuLife mobile device showcase */
+
+.MobileDevice__Wrapper {
+    width: 250px;
+    height: 550px;
+position:  absolute;
+left: 50%;
+transform: translate(-50%);
+}
+
+.MobileDevice__Outer {
+    width: 250px;
+    height: 550px;
+    background-color: white;
+    border-radius: 1.3em;
+    box-shadow: inset 0px 0px 10px 2px rgba(0,0,0,0.3),1px -9px 27px -4px rgba(0,0,0,0.3);
+}
+
+.MobileDevice__ImageWrapper {
+    padding: 10px;
+}
+
+.MobileDevice__Image {
+    width:  225px;
+    display: block;
+    margin:  auto;
+    border-radius: 1em;
+}
+
+.MobileDevice__Outer::before {
+    content: '';
+    position: absolute  ;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e7e7e7;
+    bottom:  13px;
+    left:  50%;
+    transform: translateX(-50%);
+    box-shadow: inset 5px 3px 24px 0px rgba(0,0,0,0.1);
+
+}
+
+.MobileDevice__Outer::after {
+    content: '';
+    position: absolute  ;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 18px;
+    left:  50%;
+    transform: translateX(-50%);
+    background-color: #444;
+
+}

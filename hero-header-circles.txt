@@ -1,0 +1,227 @@
+ <!-- hero button -->
+		  <div style="transform: translate(0px, -0px); display: inline-block;" data-bs-toggle="tooltip" data-bs-html="true" title="<b>YuLife</b><br />EAP App">
+	<button class="btn_ripple">
+  <img src="images/phone-ico.svg" style="width: 54px;" class="mx-auto" />
+</button>
+			  </div>
+		  
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;" data-bs-toggle="tooltip" data-bs-html="true" title="Mental health stories">
+	<div class="btn_normal">
+  <img src="images/brain-ico.svg" style="width: 32px;" class="mx-auto" />
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;" data-bs-toggle="tooltip" data-bs-html="true" title="Bupa Dental Care">
+	<div class="btn_normal">
+  <img src="images/tooth-ico.svg" style="width: 32px;" class="mx-auto" />
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;">
+	<div class="btn_normal">
+  <img src="images/pill-ico.svg" style="width: 32px;" class="mx-auto" />
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;">
+	<div class="btn_normal">
+  <img src="images/heart-hands-ico.svg" style="width: 32px;" class="mx-auto" />
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;">
+	<div class="btn_normal">
+  <img src="images/love-ico.svg" style="width: 32px;" class="mx-auto" />
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;"  num="1">
+	<div class="dot_circle">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;" num="2">
+	<div class="dot_circle">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;" num="3">
+	<div class="dot_circle">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;"  num="4">
+	<div class="dot_circle" style="height: 8px; width: 8px;">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;" num="5">
+	<div class="dot_circle">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;" num="6">
+	<div class="dot_circle">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;" num="7">
+	<div class="dot_circle" style="height: 8px; width: 8px;">
+  
+</div>
+			  </div>
+		  
+		   <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;" num="8">
+	<div class="dot_circle" style="height: 8px; width: 8px;">
+  
+</div>
+			  </div>
+		  
+		   <!-- hero button -->
+		  <div style="transform: translate(0px, 0px); display: inline-block;" num="9">
+	<div class="dot_circle" style="height: 8px; width: 8px;">
+  
+</div>
+			  </div>
+
+
+
+
+
+
+
+---------------------------------------------------------------------------
+
+
+
+<div class="col-lg-6" style="position: relative;">
+        
+		  
+			 <!-- hero button -->
+		  <div style="transform: translate(65px, -0px); display: inline-block; position: absolute;" data-bs-toggle="tooltip" data-bs-html="true" title="" data-bs-original-title="<b>YuLife</b><br />EAP App">
+	<button class="btn_ripple">
+  <img src="images/phone-ico.svg" style="width: 54px;" class="mx-auto">
+</button>
+			  </div>
+		  
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(219px, -60px);display: inline-block;position: absolute;" data-bs-toggle="tooltip" data-bs-html="true" title="" data-bs-original-title="Mental health stories">
+	<div class="btn_normal">
+  <img src="images/brain-ico.svg" style="width: 32px;" class="mx-auto">
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(212px, 164px);display: inline-block;position: absolute;" data-bs-toggle="tooltip" data-bs-html="true" title="" data-bs-original-title="Bupa Dental Care">
+	<div class="btn_normal">
+  <img src="images/tooth-ico.svg" style="width: 32px;" class="mx-auto">
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(141px, 274px);display: inline-block;position: absolute;">
+	<div class="btn_normal">
+  <img src="images/pill-ico.svg" style="width: 32px;" class="mx-auto">
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(16px, 167px);display: inline-block;position: absolute;">
+	<div class="btn_normal">
+  <img src="images/heart-hands-ico.svg" style="width: 32px;" class="mx-auto">
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(332px, -49px);display: inline-block;position: absolute;">
+	<div class="btn_normal">
+  <img src="images/love-ico.svg" style="width: 32px;" class="mx-auto">
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(29px, -52px);display: inline-block;position: absolute;" num="1">
+	<div class="dot_circle">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(327px, 199px);display: inline-block;position: absolute;" num="2">
+	<div class="dot_circle">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(167px, -101px);display: inline-block;position: absolute;" num="3">
+	<div class="dot_circle">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(212px, 106px);display: inline-block;position: absolute;" num="4">
+	<div class="dot_circle" style="height: 8px; width: 8px;">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(106px, 206px);display: inline-block;position: absolute;" num="5">
+	<div class="dot_circle">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(301px, 72px);display: inline-block;position: absolute;" num="6">
+	<div class="dot_circle">
+  
+</div>
+			  </div>
+		  
+		  <!-- hero button -->
+		  <div style="transform: translate(359px, -98px);display: inline-block;position: absolute;" num="7">
+	<div class="dot_circle" style="height: 8px; width: 8px;">
+  
+</div>
+			  </div>
+		  
+		   <!-- hero button -->
+		  <div style="transform: translate(-19px, 238px);display: inline-block;position: absolute;" num="8">
+	<div class="dot_circle" style="height: 8px; width: 8px;">
+  
+</div>
+			  </div>
+		  
+		   <!-- hero button -->
+		  <div style="transform: translate(248px, 329px);display: inline-block;position: absolute;" num="9">
+	<div class="dot_circle" style="height: 8px; width: 8px;">
+  
+</div>
+			  </div>
+			
+		  
+      </div>

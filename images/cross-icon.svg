@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  
+<g transform="matrix(2,0,0,2,0,0)"><g>
+    <circle cx="12" cy="12" r="2.5" style="fill: #2ABB99"></circle>
+    <path d="M12,7.5A1.5,1.5,0,0,0,13.5,6V1.5a1.5,1.5,0,0,0-3,0V6A1.5,1.5,0,0,0,12,7.5Z" style="fill: #2ABB99"></path>
+    <path d="M22.5,10.5H18a1.5,1.5,0,0,0,0,3h4.5a1.5,1.5,0,0,0,0-3Z" style="fill: #2ABB99"></path>
+    <path d="M12,16.5A1.5,1.5,0,0,0,10.5,18v4.5a1.5,1.5,0,0,0,3,0V18A1.5,1.5,0,0,0,12,16.5Z" style="fill: #2ABB99"></path>
+    <path d="M6,10.5H1.5a1.5,1.5,0,0,0,0,3H6a1.5,1.5,0,0,0,0-3Z" style="fill: #2ABB99"></path>
+  </g></g></svg>
