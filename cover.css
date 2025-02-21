@@ -17,11 +17,6 @@
 
 
 
-
-
-
-
-
 /*
  * Base structure
  */
@@ -33,10 +28,21 @@ body {
 }
 
 A {
-    text-decoration: none;
+    text-decoration: underline;
+    color: var(--sm-primary);
 }
 A:hover {
     text-decoration: none;
+}
+
+A:visited {
+    color: var(--sm-primary);
+}
+
+
+
+.font-weight-bold {
+    font-weight: 500;
 }
 
 .link-button {
@@ -105,6 +111,10 @@ background-color: var(--sm-grey);
     background-color: #0079c8;
 }
 
+.bupa-blue--text {
+    color: #0079c8;
+}
+
 .text-dark {
     color: #444444;
 }
@@ -119,9 +129,10 @@ background-color: var(--sm-grey);
 
 
 IMG.StoreButt {
-    width: 180px;
+    width: 9em;
 }	
 	
+
 
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -169,13 +180,45 @@ font-size: 1.2rem;
 line-height: 1.5;
 letter-spacing: 0.02rem;
 	color: #426664;
-	
 }
 
 P.lead {
 
 	font-size: 1.4rem;
 }
+
+.sm__list {
+    list-style-type: none; 
+    margin: 0em;
+    padding: 0em;
+}
+
+
+.sm__list-item  {
+padding: 0.8em 0em;
+margin: 0em;
+font-size: 1.2rem;
+border-bottom: 1px dashed rgba(255,255,255,0.2);
+}
+
+OL {
+    font-size: 1.2rem;
+    color: #426664;
+}
+
+.nav-link {
+    font-weight: 600; 
+}
+
+.sm__navbar {
+    background-color: var(--sm-primary) !important;
+}
+
+.nav-item {
+    font-size: 1.3em;
+    padding: 0px 10px;
+}
+
 
 BUTTON {
     transition: all 200ms ease-in-out;
@@ -215,6 +258,10 @@ SECTION#footer {
 .bg-nav {
     background-color: #ffffff;
 
+}
+
+.bg-white-50 {
+    background-color: rgba(255,255,255,0.2);
 }
 
 .cover-container {
