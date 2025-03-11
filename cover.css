@@ -11,9 +11,16 @@
     --sm-grey: #179b7a;
 }
 
+/* bootstrap overrides*/
+
 .w-35 {
     width: 35%;
 }
+
+.rounded {
+    border-radius: 0.4em !important;
+}
+
 
 
 
@@ -126,6 +133,18 @@ background-color: var(--sm-grey);
 .bg-smprimary {
     background-color: var(--sm-primary);
 }	
+
+.bg-smlightprimary {
+    background-color: var(--sm-light-primary);
+}	
+
+.bg-smlightgrey  {
+    background-color: #f9f9f9;
+}
+
+.bg-royal-london {
+    background-color: #470054;
+}
 
 
 IMG.StoreButt {
@@ -254,6 +273,10 @@ BUTTON.btn-link:hover path {
 
 SECTION#Sect__YuLife {
     background-color: rgb(227, 13, 118);
+}
+
+SECTION#Sect__JustEat {
+    background-color: #ff8000;
 }
 
 SECTION#footer {
@@ -577,4 +600,16 @@ transform: translate(-50%);
     transform: translateX(-50%);
     background-color: #444;
 
+}
+
+.awards__year-block {
+    background-color: var(--sm-light-primary);
+}
+
+.sm-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.4em;
+    object-position: center;
 }
